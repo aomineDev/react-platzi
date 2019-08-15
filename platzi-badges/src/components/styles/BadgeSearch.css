@@ -1,0 +1,8 @@
+.BadgeSearch {
+  width: 50%;
+  position: absolute;
+  top: 325px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+}

@@ -1,0 +1,28 @@
+.BadgeNew__hero {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background: url('../../images/stars.svg'), #1b1b25;
+  margin-bottom: 3rem;
+  color: #fff;
+}
+
+.BadgeNew__hero-logo {
+  padding: 30px 48px;
+}
+
+.BadgeNew__container {
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.BadgeNew__wrapper {
+  display: grid;
+  grid-template-columns: 450px auto;
+  grid-column-gap: 80px;
+  margin-bottom: 48px;
+}
+
+.BadgeNew__wrapper-item {
+
+}

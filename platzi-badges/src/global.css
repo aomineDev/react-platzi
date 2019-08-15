@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'Lato', 'Helvetica Neue', sans-serif;
+  background-color: #F4F4F7;
+  overflow-y: scroll;
+}
+
+h1 {
+  font-family: 'Anton', sans-serif;
+  text-transform: uppercase;
+}
+
+a.link-unstyled {
+  color: inherit;
+}
+
+a.link-unstyled:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.btn {
+  padding: .375rem 2rem;
+}
+
+.btn.btn-primary {
+  color: #fff;
+  background-color: #7DCD40;
+  border-color: #7DCD40;
+}
+
+.btn.btn-primary:not(:disabled):not(.disabled):hover {
+  color: #fff;
+  background-color: #7DCD40;
+  border-color: #7DCD40;
+}
+
+.btn.btn-primary:not(:disabled):not(.disabled):active {
+  color: #fff;
+  background-color: #7DCD40;
+  border-color: #7DCD40;
+}
+
+.btn.btn-primary:not(:disabled):not(.disabled):focus,
+.btn.btn-platzi:not(:disabled):not(.disabled):focus {
+  box-shadow: 0 0 0 .2rem rgba(125, 205, 64, 0.5);
+}
+
+.btn.btn-platzi {
+  display: inline-block;
+  padding: 4px 16px;
+	border-radius: 5px;
+	border: none;
+  background-image: linear-gradient(to left, #95ca3e 0%, #95ca3e 50%, #85c638 100%);
+  font-size: 16px;
+  border-bottom: 3px solid #6d932b;
+	color: #fff;
+  transform: scale(1);
+  transition: .2s;
+}
+
+.btn.btn-platzi:not(:disabled):not(.disabled):hover {
+  box-shadow: 0 2px 4px 0 rgba(88,144,45,0.49);
+}
+
+.btn.btn-platzi:not(:disabled):not(.disabled):active {
+  transform: scale(.9)
+}
+
+
+.btn.btn-platziDanger {
+  display: inline-block;
+  padding: 4px 16px;
+	border-radius: 5px;
+	border: none;
+  background-color: #CD4040;
+  font-size: 16px;
+  border-bottom: 3px solid #a20303;
+	color: #fff;
+  transform: scale(1);
+  transition: .2s;
+}
+
+.btn.btn-platziDanger:not(:disabled):not(.disabled):hover {
+  box-shadow: 0 2px 4px 0 rgba(255, 64, 64, .5);
+}
+
+.btn.btn-platziDanger:not(:disabled):not(.disabled):active {
+  transform: scale(.9);
+}
+
+.btn.btn-danger {
+  color: #fff;
+  background-color: #CD4040;
+  border-color: #CD4040;
+}
+
+.btn.btn-danger:not(:disabled):not(.disabled):hover {
+  color: #fff;
+  background-color: #CD4040;
+  border-color: #CD4040;
+}
+
+.btn.btn-danger:not(:disabled):not(.disabled):active {
+  color: #fff;
+  background-color: #CD4040;
+  border-color: #CD4040;
+}
+
+.btn.btn-danger:not(:disabled):not(.disabled):focus,
+.btn.btn-platziDanger:not(:disabled):not(.disabled):focus {
+  box-shadow: 0 0 0 .2rem rgba(255, 64, 64, .5);
+}
+
+.form-group-divider {
+  height: 1px;
+  background-color: #ccc;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-control.mod {
+  background-color: #F4F4F7;
+}

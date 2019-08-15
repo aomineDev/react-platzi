@@ -1,0 +1,46 @@
+.BadgeDetail__hero {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background: url('../../images/stars.svg'), #1b1b25;
+  color: #fff;
+}
+
+.BadgeDetail__container {
+  width: 55%;
+  margin-right: auto;
+  margin-left: auto;
+  display: grid;
+  grid-template-columns: 450px auto;
+  align-items: center;
+}
+
+.BadgeDetail__hero-logo {
+  padding-top: 32px;
+  padding-bottom: 32px; 
+}
+
+.BadgeDetail__title {
+  justify-self: center;
+  font-size: 48px;
+  font-family: 'Anton', sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.BadgeDetail__content {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.BadgeDetail__actions {
+  width: 40%;
+  height: 60%;
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.BadgeDetail__actions-title {
+  font-size: 24px;
+}
